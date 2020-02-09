@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>HYUN - Home</title>
+    <link rel="stylesheet" href="style/Home.css">
+    <link rel="icon" type="image/icon" href="images/icons/logo.ico" />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebas" type="text/css" />
+    <link rel="stylesheet" href="assets/home_assets/web/assets/mobirise-icons/mobirise-icons.css">
+    <link rel="stylesheet" href="assets/home_assets/tether/tether.min.css">
+    <link rel="stylesheet" href="assets/home_assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/home_assets/socicon/css/styles.css">
+    <link rel="stylesheet" href="assets/home_assets/theme/css/style.css">
+    <link rel="stylesheet" href="assets/home_assets/Additional/css/mbr-additional.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+    <script type="text/javascript">
+        $(window).on('beforeunload', function () {
+            $(window).scrollTop(0);
+        });
+        $(document).ready(function () {
+            $('div.hidden').fadeIn(300).removeClass('hidden');
+            $('img.intro').delay(3600).fadeOut(50);
+            $('div.intro_bg').delay(3850).fadeOut(500);
+            $('div.navbar').delay(3650).fadeIn(300);
+            $('main').delay(3650).fadeIn(300);
+            $('img.navlogo').fadeIn(5);
+        });
+    </script>
+</head>
+
+<body>
+    <div class="hidden">
+        <header>
+            <img class="intro" src="images/Intro.gif">
+            <div class="intro_bg"></div>
+
+            <script type="text/javascript">
+                var gifSource = $('.intro').attr('src');
+                $('#gif_animata').attr('src', "");
+                $('#gif_animata').attr('src', gifSource + "?" + new Date().getTime());
+            </script>
+
+            <div class="navbar">
+                <div class="menu-icon">
+                    <span class="menu-icon__line menu-icon__line-left"></span>
+                    <span class="menu-icon__line"></span>
+                    <span class="menu-icon__line menu-icon__line-right"></span>
+                </div>
+
+                <a href="Home.html"><img class="navlogo" src="images/logo.jpg"></a>
+            </div>
+
+            <script type="text/javascript">
+                var opened = false;
+                $('.menu-icon').click(function (e) {
+                    if ($("body").hasClass("nav-active")) {
+                        $(".nav__content").fadeOut(300);
+                    } else {
+                        $(".nav__content").fadeIn(300);
+                    }
+                });
+            </script>
+
+            <div class="nav_menu">
+                <div class="nav__content" style="display: none;">
+                    <ul class="nav__list">
+                        <table class="nav_table" border="0" align="center">
+                            <tr>
+                                <th>
+                                    <a href="Men.html">
+                                        <li class="nav__list-main" id="men" style="color: black;">Men</li>
+                                    </a>
+                                </th>
+                                <th>
+                                    <a href="Women.html">
+                                        <li class="nav__list-main" id="women" style="color: black;">Women</li>
+                                    </a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="Men_Accessories.html">
+                                        <li class="nav__list-item" id="menaccessories" style="color: black;">Men
+                                            Accessories</li>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Women_Accessories.html">
+                                        <li class="nav__list-item" id="womenaccessories" style="color: black;">Women
+                                            Accessories
+                                        </li>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="Men_T-shirt.html">
+                                        <li class="nav__list-item" id="mentshirt" style="color: black;">T-shirts</li>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Women_Blouses.html">
+                                        <li class="nav__list-item" id="womenblouses" style="color: black;">Blouses</li>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="Men_Hoodie.html">
+                                        <li class="nav__list-item" id="menhoodie" style="color: black;">Hoodies</li>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Women_Hoodie.html">
+                                        <li class="nav__list-item" id="womenhoodie" style="color: black;">Hoodies</li>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="Men_Windbreaker.html">
+                                        <li class="nav__list-item" id="menjacket" style="color: black;">Jackets</li>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Women_Windbreaker.html">
+                                        <li class="nav__list-item" id="womenjacket" style="color: black;">Jackets</li>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="Men_Headwear.html">
+                                        <li class="nav__list-item" id="menheadware" style="color: black;">Headware</li>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Women_Headwear.html">
+                                        <li class="nav__list-item" id="womenheadweare" style="color: black;">Headware
+                                        </li>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="cid-rgnYYqRYMu mbr-fullscreen mbr-parallax-background" id="header2-y">
+                <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);"></div>
+
+                <div class="container align-center">
+                    <div class="row justify-content-md-center">
+                        <div class="mbr-white col-md-10">
+                            <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+                                    Freedom is through Fashion</h1>
+                            <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">
+                                    A story behind a style</h3>
+
+                            <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4"
+                                    href="Men.html">&nbsp;Shop
+                                    for men&nbsp;</a>
+                                <a class="btn btn-md btn-secondary display-4" href="Women.html">Shop for women</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="counters6 counters cid-rgnJ6Xocwh" id="counters6-u">
+                <div class="container pt-4 mt-2">
+                    <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">Why Choose Us?</h2>
+
+                    <div>
+                        <div class="cards-container">
+                            <div class="card col-12 col-md-6 col-lg-3 pb-md-4">
+                                <div class="panel-item align-center">
+                                    <div class="card-img pb-3">
+                                        <h3 class="img-text mbr-fonts-style display-1">01.</h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <h4 class="mbr-content-title mbr-bold mbr-fonts-style display-7">Free shipping
+                                            <div></div>
+                                        </h4>
+                                        <p class="mbr-content-text mbr-fonts-style display-7">
+                                                Get free shipping when you spend over 100$</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card col-12 col-md-6 col-lg-3 pb-md-4">
+                                <div class="panel-item align-center">
+                                    <div class="card-img pb-3">
+                                        <h3 class="img-text mbr-fonts-style display-1">02.</h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <h4 class="mbr-content-title mbr-bold mbr-fonts-style display-7">6-7 days fast shipping
+                                        </h4>
+                                        <p class="mbr-content-text mbr-fonts-style display-7">
+                                                We offer a quick and secured shipping for your products!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card col-12 col-md-6 col-lg-3">
+                                <div class="panel-item align-center">
+                                    <div class="card-img pb-3">
+                                        <h3 class="img-text mbr-fonts-style display-1">03.</h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <h4 class="mbr-content-title mbr-bold mbr-fonts-style display-7">Active customer support</h4>
+                                        <p class="mbr-content-text mbr-fonts-style display-7">
+                                                Any problems with your product? Not satisfied? Email us and we’ll clear it up!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="countdown1 cid-rgnRgq2Uti" id="countdown1-x">
+
+                <div class="container ">
+                    <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">
+                        Countdown until the sale's done<br></h2>
+                    <h3 class="mbr-section-subtitle align-center mbr-fonts-style display-5">
+                        Grab any puffer jacket quickly before it's back to the original price. It's 10$ off this week
+                        only, no,
+                        that's not a typo. Grab it while it lasts!</h3>
+
+                </div>
+                <div class="container countdown-cont align-center">
+                    <div class="daysCountdown" title="Days"></div>
+                    <div class="hoursCountdown" title="Hours"></div>
+                    <div class="minutesCountdown" title="Minutes"></div>
+                    <div class="secondsCountdown" title="Seconds"></div>
+                    <div class="countdown pt-5 mt-2" data-due-date="2019/06/1">
+                    </div>
+                </div>
+            </section>
+
+            <section class="services2 cid-rgnNmQuLcj" id="services2-v">
+
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="media-container-row">
+                            <div class="mbr-figure" style="width: 50%;">
+                                <img src="images/items/PufferJacket_Wave (Front).png" alt="weekly sale item" title="">
+                            </div>
+                            <div class="align-left aside-content">
+                                <h2 class="mbr-title pt-2 mbr-fonts-style display-2">This week's sale</h2>
+                                <div class="mbr-section-text">
+                                    <p class="mbr-text text1 pt-2 mbr-light mbr-fonts-style display-7"><br>Some of these products are offered in a variety of different colourways, to match your outfits and style. 
+                                        There is also an abundance of styles for you to choose from, let us know what you prefer!
+                                        Not feeling it? Don’t worry, let us know what you would like to see in the future so we can work on something!<br><br>Designed for you - Made for you!
+                                        </p>
+                                    <p class="mbr-text text2 pt-4 mbr-light mbr-fonts-style display-2">
+                                        $70&nbsp;<span class="cost">$80</span></p>
+                                </div>
+                                <div class="mbr-section-btn pt-3 align-left"><a href="Men_Windbreaker.html"
+                                        class="btn btn-white-outline display-4">
+                                        Buy Now
+                                    </a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="services1 cid-rgnPmO7AwL" id="services1-w">
+
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="title pb-5 col-12">
+                            <h2 class="align-left pb-3 mbr-fonts-style display-1">
+                                Featured items</h2>
+
+                        </div>
+                        <div class="card col-12 col-md-6 col-lg-4">
+                            <div class="card-wrapper">
+                                <div class="card-img">
+                                    <img src="images/items/Hoodie_CherryBlossom_white (Front).png" alt="Item 1"
+                                        title="">
+                                </div>
+                                <div class="card-box pb-md-5">
+                                    <h4 class="card-title mbr-fonts-style display-5">
+                                        Cherry Blossom Hoodie</h4>
+                                    <p class="mbr-text mbr-fonts-style display-7">
+                                        This Cherry Blossom Hoodie will sure put you in your spring vibes. This symbolic
+                                        flower-inspired design is surely a neck breaker! With quality, a unique design,
+                                        an amazing comfortability, and a trendy style, this is the product for you! The
+                                        stunning sublimated design makes it easy for you to wash and is available is
+                                        many different colourways to match your own style.
+
+                                    </p>
+                                    <div class="mbr-section-btn align-left"><a href="Hoodie_CherryBlossom.html"
+                                            class="btn btn-black-outline display-4">
+                                            $ 50
+                                        </a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-md-6 col-lg-4">
+                            <div class="card-wrapper">
+                                <div class="card-img">
+                                    <img src="images/items/Windbreaker_Script_white (Front).png" alt="Item 2" title="">
+                                </div>
+                                <div class="card-box pb-md-5">
+                                    <h4 class="card-title mbr-fonts-style display-5">Script Windbreaker</h4>
+                                    <p class="mbr-text mbr-fonts-style display-7">
+                                        This outstanding windbreaker is filled with short quotes in many different
+                                        languages around the world. Can you spot one that you recognize? Representing
+                                        our multicultural communities around the world, walking outside with this
+                                        windbreaker will definitely turn the eyes towards you. This piece is insulated
+                                        to offer even better quality as well as being waterproof and windproof.
+                                        Definitely worth the cop!
+
+                                    </p>
+                                    <div class="mbr-section-btn align-left"><a href="Windbreaker_Script.html"
+                                            class="btn btn-black-outline display-4">
+                                            $ 60 </a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-md-6 col-lg-4 last-child">
+                            <div class="card-wrapper">
+                                <div class="card-img">
+                                    <img src="images/items/Headwear_beanie_black.png" alt="Item 3" title="">
+                                </div>
+                                <div class="card-box">
+                                    <h4 class="card-title mbr-fonts-style display-5">Box Logo Beanie</h4>
+                                    <p class="mbr-text mbr-fonts-style display-7">
+                                        Clean, simple, and an astonishing look is all we need to describe this product.
+                                        This acrylic-made beanie is without a doubt a dope add to any of your fits.
+                                        Available in many different colours for your liking! For an affordable price,
+                                        you can get this piece and support the brand!
+
+                                    </p>
+                                    <div class="mbr-section-btn align-left"><a href="Headwear_beanie.html"
+                                            class="btn btn-black-outline display-4">
+                                            $ 18 </a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="footer4 cid-rgffIjdwGM mbr-reveal" id="footer4-t">
+                <div class="container">
+                    <div class="media-container-row content mbr-white">
+                        <div class="col-md-3 col-sm-4">
+                            <div class="mb-3 img-logo">
+                                <a href="Home.html">
+                                    <img src="assets/home_assets/images/logo.jpg" alt="HYUN logo" title="">
+                                </a>
+                            </div>
+                            <p class="mb-3 mbr-fonts-style foot-title display-7">
+                                HYUN</p>
+                            <p class="mbr-text mbr-fonts-style mbr-links-column display-7">
+                                <a href="About_us.html" class="text-white">About Us</a>
+                                <br><a href="Terms_of_service.html" class="text-white">Terms Of Service</a>
+                                <br><a href="mailto:speedejer86@outlook.com" class="text-white">Get In Touch</a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-sm-8">
+                            <a href="mailto:speedejer86@outlook.com" style="text-decoration: none; color: white;"><p class="mb-4 foot-title mbr-fonts-style display-5">Need help?</p>
+                            <p class="mbr-text mbr-fonts-style foot-text display-7"><span style="font-size: 1rem;">Can't
+                                    get the right size?</span><br><br><span style="font-size: 1rem;"> Concerned about
+                                    the quality of our products?</span><br><br><span style="font-size: 1rem;">Questions
+                                    about the shippings and conditions?</span><br><br>Need human assistance?</p></a>
+                        </div>
+                        <div class="col-md-4 offset-md-1 col-sm-12">
+                            <p class="mb-4 foot-title mbr-fonts-style display-7">
+                                SUBSCRIBE
+                            </p>
+                            <p class="mbr-text mbr-fonts-style form-text display-7">
+                                Get monthly updates and be notified when new stuff comes out and when new sales hit!</p>
+                            <div class="media-container-column" data-form-type="formoid">
+                                <div data-form-alert="" hidden="" class="align-center">Thanks for trusting us, we won't
+                                    spam you, promise.</div>
+
+                                <form class="form-inline" action="Home.html" method="post"
+                                    data-form-title="Subscribe Form">
+                                    <input type="hidden"
+                                        value="SmslNqA3hTChLPJy+ldzeRUkKOFcWUvziAinzvBrIwXqsBRZO+t9cYs7K4c5628DJeOv86ZAHkeXbWtKXGJHTiPKERacXG2/ZydiqR0EGdXweY/yBUyfHz9dI50+oWmf"
+                                        data-form-email="true">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control input-sm input-inverse my-2"
+                                            name="email" required="" data-form-field="Email" placeholder="Email"
+                                            id="email-footer4-t">
+                                    </div>
+                                    <div class="input-group-btn m-2"><button href=""
+                                            class="btn btn-white-outline display-4" type="submit"
+                                            role="button">Subscribe</button></div>
+                                </form>
+                            </div>
+                            <p class="mb-4 mbr-fonts-style foot-title display-7"><br>Follow us here!</p>
+                            <div class="social-list pl-0 mb-0">
+                                <div class="soc-item">
+                                    <a href="https://twitter.com/hyunsupply" target="_blank">
+                                        <span class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="tel:8733760664">
+                                        <span class="mbr-iconfont mbr-iconfont-social mbri-mobile"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="mailto:speedejer86@outlook.com">
+                                        <span class="mbr-iconfont mbr-iconfont-social socicon-mail socicon"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="https://instagram.com/hyunsupply?utm_source=ig_profile_share&igshid=1rtx0d32qnypj"
+                                        target="_blank">
+                                        <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
+                                    </a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-lower">
+                        <div class="media-container-row">
+                            <div class="col-sm-12">
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="media-container-row mbr-white">
+                            <div class="col-sm-12 copyright">
+                                <p class="mbr-text mbr-fonts-style display-7">
+                                    © Copyright 2019 HYUN - All Rights Reserved
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script type="text/javascript">
+            $('a').click(function (e) {
+                e.preventDefault();
+                newLocation = this.href;
+                $('body').fadeOut('slow', newpage);
+            });
+
+            function newpage() {
+                window.location = newLocation;
+            }
+        </script>
+
+        <script type="text/javascript">
+            var app = function () {
+                var body = void 0;
+                var menu = void 0;
+                var menuItems = void 0;
+
+                var init = function init() {
+                    body = document.querySelector('body');
+                    menu = document.querySelector('.menu-icon');
+                    menuItems = document.querySelectorAll('.nav__list-main');
+                    menuTitles = document.querySelectorAll('.nav__list-item');
+
+                    applyListeners();
+                };
+
+                var applyListeners = function applyListeners() {
+                    menu.addEventListener('click', function () {
+                        return toggleClass(body, 'nav-active');
+                    });
+                };
+
+                var toggleClass = function toggleClass(element, stringClass) {
+                    if (element.classList.contains(stringClass))
+                        element.classList.remove(stringClass);
+
+                    else
+                        element.classList.add(stringClass)
+                };
+                init();
+            }();
+        </script>
+        <script src="assets/home_assets/web/assets/jquery/jquery.min.js"></script>
+        <script src="assets/home_assets/popper/popper.min.js"></script>
+        <script src="assets/home_assets/tether/tether.min.js"></script>
+        <script src="assets/home_assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/home_assets/smoothscroll/smooth-scroll.js"></script>
+        <script src="assets/home_assets/parallax/jarallax.min.js"></script>
+        <script src="assets/home_assets/viewportchecker/jquery.viewportchecker.js"></script>
+        <script src="assets/home_assets/countdown/jquery.countdown.min.js"></script>
+        <script src="assets/home_assets/theme/js/script.js"></script>
+        <script src="assets/home_assets/formoid/formoid.min.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,2 +1,0 @@
-DirectoryIndex Home.html
-ErrorDocument 404 /Page not found.html

@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>HYUN - Script Windbreaker</title>
+    <link rel="stylesheet" href="style/Windbreaker_Script.css">
+    <link rel="icon" type="image/icon" href="images/icons/logo.ico" />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebas" type="text/css" />
+    <link rel="stylesheet" href="assets/cloth-list_assets/normalize.min.css">
+    <link rel="stylesheet" href="assets/cloth-list_assets/reset.min.css">
+
+    <link rel="stylesheet" href="assets/women-men_assets/web/assets/mobirise-icons/mobirise-icons.css">
+    <link rel="stylesheet" href="assets/women-men_assets/tether/tether.min.css">
+    <link rel="stylesheet" href="assets/women-men_assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/women-men_assets/socicon/css/styles.css">
+    <link rel="stylesheet" href="assets/women-men_assets/theme/css/style.css">
+    <link rel="stylesheet" href="assets/women-men_assets/mobirise/css/mbr-additional.css" type="text/css">
+
+    <script
+        src="https://www.paypal.com/sdk/js?client-id=AZxAoRz12hw0vDjsQXXqzUyWOLUdX8Dex6zf-FOXathGAbkg-yBdoiDGgQZp7cLwenaE8tS27DZx43Db&currency=CAD">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+    <script language="Javascript">
+        window.onload = function () {
+            var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent
+                .toLowerCase()));
+            if (mobile) {
+                $(".product-color").css("margin", "0px 120px 0px 0px");
+                alert("Visit this on a computer/bigger screen for a better view");
+                $("#text_particles").css("display", "none");
+            } else {
+                $(".product-color").css("margin", "0px 0px 0px 0px");
+                $("#text_particles").css("display", "block");
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(window).on('beforeunload', function () {
+            $(window).scrollTop(0);
+        });
+        $(document).ready(function () {
+            $('div.intro_bg').delay(100).fadeOut(500);
+        });
+        $(document).ready(function () {
+            function screenClass() {
+                if ($(window).innerWidth() < 1350 && $(window).innerWidth() > 1200) {
+                    $('#black').click(function () {
+                        $('.small').attr('src', 'images/FFFFFF-0.png');
+                        $('.big').attr('src', 'images/items/Windbreaker_Script_black (Front).png');
+                    });
+                    $('#white').click(function () {
+                        $('.small').attr('src', 'images/FFFFFF-0.png');
+                        $('.big').attr('src', 'images/items/Windbreaker_Script_white (Front).png');
+                    });
+                } else if ($(window).innerWidth() <= 1200) {
+                    $('#black').click(function () {
+                        $('.small').attr('src', 'images/FFFFFF-0.png');
+                        $('.big').attr('src', 'images/FFFFFF-0.png');
+                        $('.underpicture').attr('src',
+                            'images/items/Windbreaker_Script_black (Back).png');
+                    });
+                    $('#white').click(function () {
+                        $('.small').attr('src', 'images/FFFFFF-0.png');
+                        $('.big').attr('src', 'images/FFFFFF-0.png');
+                        $('.underpicture').attr('src',
+                            'images/items/Windbreaker_Script_white (Back).png');
+                    });
+                } else {
+                    $('#black').click(function () {
+                        $('.small').attr('src', 'images/items/Windbreaker_Script_black (Back).png');
+                        $('.big').attr('src', 'images/items/Windbreaker_Script_black (Front).png');
+                    });
+                    $('#white').click(function () {
+                        $('.small').attr('src', 'images/items/Windbreaker_Script_white (Back).png');
+                        $('.big').attr('src', 'images/items/Windbreaker_Script_white (Front).png');
+                    });
+                }
+            }
+            screenClass();
+
+            $(window).bind('resize', function () {
+                screenClass();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="intro_bg"></div>
+        <div class="navbar">
+            <div class="menu-icon">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+
+            <a href="Home.html"><img class="navlogo" src="images/logo.jpg"></a>
+        </div>
+
+        <script type="text/javascript">
+            var opened = false;
+            $('.menu-icon').click(function (e) {
+                var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(
+                    navigator.userAgent
+                    .toLowerCase()));
+                if (mobile) {
+                    $(".wrap-drop").css("margin", "0px 0px 0px 100px");
+                    $(".product-color").css("margin", "0px 120px 0px 0px");
+                    alert("Visit this on a computer/bigger screen for a better view");
+                } else {
+                    $(".wrap-drop").css("margin", "0px 0px 0px 0px");
+                    $(".product-color").css("margin", "0px 0px 0px 0px");
+                }
+            });
+        </script>
+
+        <div class="nav_menu" style=" z-index: 10000000; ">
+            <div class="nav__content" style="display: none;">
+                <ul class="nav__list">
+                    <table class="nav_table" border="0" align="center">
+                        <tr>
+                            <th>
+                                <a href="Men.html">
+                                    <li class="nav__list-main" id="men" style="color: black;">Men</li>
+                                </a>
+                            </th>
+                            <th>
+                                <a href="Women.html">
+                                    <li class="nav__list-main" id="women" style="color: black;">Women</li>
+                                </a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="Men_Accessories.html">
+                                    <li class="nav__list-item" id="menaccessories" style="color: black;">Men Accessories</li>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="Women_Accessories.html">
+                                    <li class="nav__list-item" id="womenaccessories" style="color: black;">Women Accessories
+                                    </li>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="Men_T-shirt.html">
+                                    <li class="nav__list-item" id="mentshirt" style="color: black;">T-shirts</li>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="Women_Blouses.html">
+                                    <li class="nav__list-item" id="womenblouses" style="color: black;">Blouses</li>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="Men_Hoodie.html">
+                                    <li class="nav__list-item" id="menhoodie" style="color: black;">Hoodies</li>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="Women_Hoodie.html">
+                                    <li class="nav__list-item" id="womenhoodie" style="color: black;">Hoodies</li>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="Men_Windbreaker.html">
+                                    <li class="nav__list-item" id="menjacket" style="color: black;">Jackets</li>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="Women_Windbreaker.html">
+                                    <li class="nav__list-item" id="womenjacket" style="color: black;">Jackets</li>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="Men_Headwear.html">
+                                    <li class="nav__list-item" id="menheadware" style="color: black;">Headware</li>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="Women_Headwear.html">
+                                    <li class="nav__list-item" id="womenheadweare" style="color: black;">Headware
+                                    </li>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <table style="z-index: 1000; position: absolute;">
+            <tr>
+                <th style="width: 60%;" class="picturetab">
+                    <div class="product-photo">
+                        <img class="small" style="z-index: 1;" src="images/items/Windbreaker_Script_white (Back).png">
+                        <img class="big" style="z-index: 2;" src="images/items/Windbreaker_Script_white (Front).png">
+                    </div>
+                </th>
+                <th class="infotab">
+                    <div style="right: 10%;">
+                        <img class="Script_text" src="images/Script_text (Windbreaker).png"
+                            style="margin: 0px 0px 30px 0px;">
+                            <div class="styled-select slate">
+                                <select id="size">
+                                    <option value="X-Small">X-Small</option>
+                                    <option value="Small">Small</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="Large">Large</option>
+                                    <option value="X-Large">X-Large</option>
+                                    <option value="XX-Large">XX-Large</option>
+                                </select>
+                            </div>
+                        <div align="right">
+                            <ul class="product-color" style="z-index: 100;">
+                                <li>
+                                    <input type="radio" name="color" id="black" style="z-index: 10000;" />
+                                    <label for="black"
+                                        style="background-color:rgb(22, 22, 22); z-index: 10000;"></label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="color" id="white" style="z-index: 10000;"
+                                        checked="checked" />
+                                    <label for="white"
+                                        style="background-color:rgb(196, 196, 196); z-index: 10000;"></label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="paypal-button-container" style="padding: 20px 0px 80px 0px; opacity: 1;"></div>
+                        <img src="images/FFFFFF-0.png" class="underpicture">
+
+                        <script>
+                            paypal.Buttons({
+                                createOrder: function (data, actions) {
+                                    return actions.order.create({
+                                        purchase_units: [{
+                                            amount: {
+                                                value: '60.00'
+                                            }
+                                        }]
+                                    });
+                                },
+
+                                onApprove: function (data, actions) {
+                                    return actions.order.capture().then(function (details) {
+                                        var BlackCheckbox = document.getElementById("black");
+                                        // Getting the color by checking if the checkbox `black` is checked or not
+                                        var color = (BlackCheckbox.checked === true) ? 'Black' :
+                                            'White';
+                                        // Finding the size by seeing which size the user has selected from the dropdown.
+                                        var size = document.getElementById("size")
+                                            .value;
+
+                                        var item = 'Script Windbreaker';
+
+                                        var name = details.payer.name.full_name;
+
+                                        var address = details.payer.address.address_line_1;
+                                        //alert('The address is ' + address);
+
+                                        $.post('Payment_Validation.php', {
+                                            postitem: item,
+                                            postaddress: address,
+                                            postname: name,
+                                            postcolor: color,
+                                            postsize: size,
+                                            postid: data.orderID
+                                        }, function () {});
+
+                                        return fetch('/paypal-transaction-complete', {
+                                            method: 'post',
+                                            body: JSON.stringify({
+                                                orderID: data.orderID,
+                                            })
+                                        });
+                                    });
+                                },
+
+                                style: {
+                                    color: 'white',
+                                    layout: 'horizontal',
+                                    shape: 'rect',
+                                    label: 'pay',
+                                    height: 55,
+                                    tagline: false
+                                },
+
+                            }).render('#paypal-button-container');
+                        </script>
+
+                        <script type="text/javascript">
+                            var PAYPAL_CLIENT = 'PAYPAL_LIVE_CLIENT';
+                            var PAYPAL_SECRET = 'PAYPAL_LIVE_SECRET';
+
+                            PAYPAL_OAUTH_API = 'https://api.sandbox.paypal.com/v1/oauth2/token/';
+                            PAYPAL_ORDER_API = 'https://api.sandbox.paypal.com/v2/checkout/orders/';
+
+                            basicAuth = base64encode(`${ PAYPAL_CLIENT }:${ PAYPAL_SECRET }`);
+                            auth = http.post(PAYPAL_OAUTH_API, {
+                                headers: {
+                                    Accept: `application/json`,
+                                    Authorization: `Basic ${ basicAuth }`
+                                },
+                                data: `grant_type=client_credentials`
+                            });
+
+                            function handleRequest(request, response) {
+
+                                orderID = request.body.orderID;
+
+                                details = http.get(PAYPAL_ORDER_API + orderID, {
+                                    headers: {
+                                        Accept: `application/json`,
+                                        Authorization: `Bearer ${ auth.access_token }`
+                                    }
+                                });
+
+                                if (details.error) {
+                                    return response.send(500);
+                                }
+
+                                if (details.purchase_units[0].amount.value !== '5.77') {
+                                    return response.send(400);
+                                }
+
+                                database.saveTransaction(orderID);
+
+                                return response.send(200);
+                            }
+                        </script>
+                    </div>
+                </th>
+            </tr>
+        </table>
+
+        <canvas id="text_particles"></canvas>
+    </main>
+
+    <script type="text/javascript">
+        function screenClass() {
+            if ($(window).innerWidth() < 1350 && $(window).innerWidth() > 1200) {
+                $('.small').attr('src', 'images/FFFFFF-0.png');
+            } else if ($(window).innerWidth() <= 1200) {
+                $('.big').attr('src', 'images/FFFFFF-0.png');
+                $('.small').attr('src', 'images/FFFFFF-0.png');
+                $(".picturetab").css("position", "absolute");
+                $(".infotab").css("padding", "100px 10px 0px 0px");
+                if ($('input[id=black]:checked').length > 0) {
+                    $('.underpicture').attr('src', 'images/items/Windbreaker_Script_black (Back).png');
+                    $(".underpicture").css("display", "block");
+                } else {
+                    $('.underpicture').attr('src', 'images/items/Windbreaker_Script_white (Back).png');
+                    $(".underpicture").css("display", "block");
+                }
+            } else {
+                $(".picturetab").css("position", "relative");
+                $(".infotab").css("padding", "0px 100px 0px 0px");
+                if ($('input[id=black]:checked').length > 0) {
+                    $('.small').attr('src', 'images/items/Windbreaker_Script_black (Back).png');
+                    $('.big').attr('src', 'images/items/Windbreaker_Script_black (Front).png');
+                    $('.underpicture').attr('src', 'images/FFFFFF-0.png');
+                    $(".underpicture").css("display", "none");
+                } else {
+                    $('.small').attr('src', 'images/items/Windbreaker_Script_white (Back).png');
+                    $('.big').attr('src', 'images/items/Windbreaker_Script_white (Front).png');
+                    $('.underpicture').attr('src', 'images/FFFFFF-0.png');
+                    $(".underpicture").css("display", "none");
+                }
+            }
+        }
+
+        screenClass();
+
+        $(window).bind('resize', function () {
+            screenClass();
+        });
+    </script>
+
+    <script type="text/javascript">
+        function DropDown(el) {
+            this.dd = el;
+            this.placeholder = this.dd.children('span');
+            this.opts = this.dd.find('ul.drop li');
+            this.val = '';
+            this.index = -1;
+            this.initEvents();
+        }
+
+        DropDown.prototype = {
+            initEvents: function () {
+                var obj = this;
+                obj.dd.on('click', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    $(this).toggleClass('active');
+
+                    var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i
+                        .test(navigator.userAgent
+                            .toLowerCase()));
+                    if (mobile) {
+                        $("#paypal-button-container").css("padding", "0px 0px 100px 100px");
+                    } else {
+                        $("#paypal-button-container").css("padding", "0px 0px 100px 0px");
+                    }
+                });
+                obj.opts.on('click', function () {
+                    var opt = $(this);
+                    document.getElementById("paypal-button-container").style.opacity = "1";
+                    obj.val = opt.text();
+                    obj.index = opt.index();
+                    obj.placeholder.text(obj.val);
+                    opt.siblings().removeClass('selected');
+                    opt.filter(':contains("' + obj.val + '")').addClass('selected');
+                }).change();
+            },
+            getValue: function () {
+                return this.val;
+            },
+            getIndex: function () {
+                return this.index;
+            }
+        };
+
+        $(function () {
+            var dd1 = new DropDown($('#noble-gases'));
+            $(document).click(function () {
+                $('.wrap-drop').removeClass('active');
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $('a').click(function (e) {
+            e.preventDefault();
+            newLocation = this.href;
+            $('body').fadeOut('slow', newpage);
+        });
+
+        function newpage() {
+            window.location = newLocation;
+        }
+    </script>
+
+    <script type="text/javascript">
+        var docheight = document.querySelector('body');
+        canvas = document.getElementsByTagName('canvas')[0];
+        canvas.width = document.body.clientWidth;
+        canvas.height = document.body.clientHeight;
+
+        var ctx = canvas.getContext('2d');
+
+
+        var characterList = ['gridare alla mia ex', 'Diohaunpiano', 'Die Realität ist falsch, Träume sind real',
+            'الله لديه خطة', 'El amor es falso', 'Любовь это иллюзия', 'الحب خدعة', '너는내동기였어', 'Θααγαπήσωκαιπάλι',
+            'वास्तविकता गलत है कि सपने सच हो रहे हैं', '나는네가네가나를사랑한다고말했을때꿈꿔왔다고생각했다', 'Liebeistfalsch',
+            'No hay fin lo llaman atemporal.', 'Elamoresunailusion', 'Με άφησε σπασμένο σε κομμάτια',
+            'Ηαγάπη είναι ψεύτικη', 'حذرا لا تبديل الجانبين', '현실은 잘못된 꿈을 현실위한 것입니다',
+            'gridare alla mia ex', '사랑은환상이다 ', 'Реальность ошибочна мечты реальны', 'KeinEndenennteszeitlos',
+            '나는네가네가나를사랑한다고말했을때꿈꿔왔다고생각했다', '사랑은환상이다 ', 'ظننت أنني أحلم  عندما قلت أنك تحبني',
+            'الواقع خاطئ ، الأحلام حقيقية'
+        ];
+
+        var layers = {
+            n: 7,
+            letters: [300, 100, 50, 25, 20, 10, 5],
+            coef: [0.1, 0.2, 0.4, 0.6, 0.8, 1, 1.2],
+            size: [16, 22, 36, 40, 46, 50, 55],
+            color: ['#fff', '#eee', '#ccc', '#bbb', '#aaa', '#aaa', '#aaa'],
+            font: 'Courrier'
+        };
+
+        var characters = [];
+        var mouseX = document.body.clientWidth / 1;
+        var mouseY = document.body.clientHeight / 1;
+
+        var rnd = {
+            btwn: function (min, max) {
+                return Math.floor(Math.random() * (max - min) + min);
+            },
+            choose: function (list) {
+                return list[rnd.btwn(0, list.length)];
+            }
+        };
+
+        function drawLetter(char) {
+            ctx.font = char.size + 'px ' + char.font;
+            ctx.fillStyle = char.color;
+
+            var x = -200 + char.posX + (mouseX - canvas.width / 5) * char.coef;
+            var y = -200 + char.posY + (mouseY - canvas.height / 5) * char.coef;
+
+            ctx.fillText(char.char, x, y);
+        }
+
+        document.onmousemove = function (ev) {
+            mouseX = ev.pageX - canvas.offsetLeft * 0.2;
+            mouseY = ev.pageY - canvas.offsetTop * 0.2;
+
+            if (window.requestAnimationFrame) {
+                requestAnimationFrame(update);
+            } else {
+                update();
+            }
+        };
+
+        function update() {
+            clear();
+            render();
+        }
+
+        function clear() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+
+        function render() {
+            for (var i = 0; i < characters.length; i++) {
+                drawLetter(characters[i]);
+            }
+        }
+
+        function createLetters() {
+            for (var i = 0; i < layers.n; i++) {
+                for (var j = 0; j < layers.letters[i]; j++) {
+
+                    var character = rnd.choose(characterList);
+                    var x = rnd.btwn(0, canvas.width);
+                    var y = rnd.btwn(0, canvas.height);
+
+                    characters.push({
+                        char: character,
+                        font: layers.font,
+                        size: layers.size[i],
+                        color: layers.color[i],
+                        layer: i,
+                        coef: layers.coef[i],
+                        posX: x,
+                        posY: y
+                    });
+
+                }
+            }
+        }
+
+        createLetters();
+        update();
+    </script>
+
+    <script type="text/javascript">
+        var app = function () {
+            var body = void 0;
+            var menu = void 0;
+            var menus = void 0;
+
+            var init = function init() {
+                body = document.querySelector('body');
+                menu = document.querySelector('.menu-icon');
+                menuItems = document.querySelectorAll('.nav__list-main');
+                menuTitles = document.querySelectorAll('.nav__list-item');
+
+                applyListeners();
+            };
+
+            var applyListeners = function applyListeners() {
+                menu.addEventListener('click', function () {
+                    return toggleClass(body, 'nav-active');
+                });
+            };
+
+            var toggleClass = function toggleClass(element, stringClass) {
+                if (element.classList.contains(stringClass))
+                    element.classList.remove(stringClass);
+
+                else
+                    element.classList.add(stringClass)
+            };
+            init();
+        }();
+    </script>
+
+    <script type="text/javascript">
+        var images = new Array()
+
+        function preload() {
+            for (i = 0; i < preload.arguments.length; i++) {
+                images[i] = new Image()
+                images[i].src = preload.arguments[i]
+            }
+        }
+        preload(
+            "images/items/Windbreaker_Script_black (Back).png",
+            "images/items/Windbreaker_Script_white (Back).png",
+            "images/items/Windbreaker_Script_black (front).png",
+            "images/items/Windbreaker_Script_white (front).png",
+        )
+    </script>
+
+    <script src="assets/women-men_assets/web/assets/jquery/jquery.min.js"></script>
+    <script src="assets/women-men_assets/popper/popper.min.js"></script>
+    <script src="assets/women-men_assets/tether/tether.min.js"></script>
+    <script src="assets/women-men_assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/women-men_assets/smoothscroll/smooth-scroll.js"></script>
+    <script src="assets/women-men_assets/parallax/jarallax.min.js"></script>
+    <script src="assets/women-men_assets/sociallikes/social-likes.js"></script>
+    <script src="assets/women-men_assets/theme/js/script.js"></script>
+    <script src="assets/women-men_assets/formoid/formoid.min.js"></script>
+</body>
+
+</html>

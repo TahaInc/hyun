@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <title>HYUN - Women hoodies</title>
     <link rel="stylesheet" href="style/Women_Hoodie.css">
-    <link rel="icon" type="image/icon" href="images/icons/logo.ico" />
+    <link rel="icon" type="image/icon" href="assets/images/icons/logo.ico" />
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebas" type="text/css" />
     <link rel="stylesheet" href="assets/cloth-list_assets/normalize.min.css">
     <link rel="stylesheet" href="assets/cloth-list_assets/reset.min.css">
@@ -28,9 +28,9 @@
         });
         $(window).on("scroll", function () {
             if ($(document).scrollTop() < 700) {
-                $('.Product_Image').attr('src', 'images/items/Plain_front (Hoodie).png');
+                $('.Product_Image').attr('src', 'assets/images/items/Plain_front (Hoodie).png');
                 $('.Product_mockup').attr('src',
-                    'images/supreme-fall-winter-2014-collection-lookbook-2-1200x120022.png');
+                    'assets/images/supreme-fall-winter-2014-collection-lookbook-2-1200x120022.png');
                 $(".Product_Name a").text("Plain Hoodie");
                 $(".Product_Price a").text("$50");
                 $(".Product_Hoodie").css("transition", "0.5s");
@@ -44,9 +44,9 @@
                 $(".scrolldown").css("filter", "invert(1)");
             }
             if ($(document).scrollTop() >= 700 && $(document).scrollTop() < 1700) {
-                $('.Product_Image').attr('src', 'images/items/Plain_front (Hoodie).png');
+                $('.Product_Image').attr('src', 'assets/images/items/Plain_front (Hoodie).png');
                 $('.Product_mockup').attr('src',
-                    'images/supreme-fall-winter-2014-collection-lookbook-2-1200x120022.png');
+                    'assets/images/supreme-fall-winter-2014-collection-lookbook-2-1200x120022.png');
                 $(".Product_Name a").text("Plain Hoodie");
                 $(".Product_Price a").text("$50");
                 $(".Product_Hoodie").css("transition", "0.5s");
@@ -54,9 +54,9 @@
                 $(".Product_Hoodie").css("pointer-events", "auto");
             }
             if ($(document).scrollTop() >= 1700 && $(document).scrollTop() < 2700) {
-                $('.Product_Image').attr('src', 'images/items/Oni_back (Hoodie).png');
+                $('.Product_Image').attr('src', 'assets/images/items/Oni_back (Hoodie).png');
                 $('.Product_mockup').attr('src',
-                    'images/supreme-fall-winter-2014-collection-lookbook-2-1200x1200.png');
+                    'assets/images/supreme-fall-winter-2014-collection-lookbook-2-1200x1200.png');
                 $(".Product_Name a").text("Oni Hoodie");
                 $(".Product_Price a").text("$50");
                 $(".Product_Hoodie").css("transition", "0.5s");
@@ -64,9 +64,9 @@
                 $(".Product_Hoodie").css("pointer-events", "auto");
             }
             if ($(document).scrollTop() >= 2700 && $(document).scrollTop() < 3700) {
-                $('.Product_Image').attr('src', 'images/items/Cherry_back (Hoodie).png');
+                $('.Product_Image').attr('src', 'assets/images/items/Cherry_back (Hoodie).png');
                 $('.Product_mockup').attr('src',
-                    'images/supreme-fall-winter-2014-collection-lookbook-2-1200x12002222.png');
+                    'assets/images/supreme-fall-winter-2014-collection-lookbook-2-1200x12002222.png');
                 $(".Product_Name a").text("Cherry Blossom Hoodie");
                 $(".Product_Price a").text("$50");
                 $(".Product_Hoodie").css("transition", "0.5s");
@@ -74,9 +74,9 @@
                 $(".Product_Hoodie").css("pointer-events", "auto");
             }
             if ($(document).scrollTop() >= 3700) {
-                $('.Product_Image').attr('src', 'images/items/Cherry_back (Hoodie).png');
+                $('.Product_Image').attr('src', 'assets/images/items/Cherry_back (Hoodie).png');
                 $('.Product_mockup').attr('src',
-                    'images/supreme-fall-winter-2014-collection-lookbook-2-1200x12002222.png');
+                    'assets/images/supreme-fall-winter-2014-collection-lookbook-2-1200x12002222.png');
                 $(".Product_Name a").text("Cherry Blossom Hoodie");
                 $(".Product_Price a").text("$50");
                 $(".Product_Hoodie").css("transition", "0.5s");
@@ -97,7 +97,7 @@
                 <span class="menu-icon__line menu-icon__line-right"></span>
             </div>
 
-            <a href="Home.html"><img class="navlogo" src="images/logo.jpg"></a>
+            <a href="Home.html"><img class="navlogo" src="assets/images/logo.jpg"></a>
         </div>
 
         <script type="text/javascript">
@@ -130,12 +130,14 @@
                         <tr>
                             <td>
                                 <a href="Men_Accessories.html">
-                                    <li class="nav__list-item" id="menaccessories" style="color: black;">Men Accessories</li>
+                                    <li class="nav__list-item" id="menaccessories" style="color: black;">Men Accessories
+                                    </li>
                                 </a>
                             </td>
                             <td>
                                 <a href="Women_Accessories.html">
-                                    <li class="nav__list-item" id="womenaccessories" style="color: black;">Women Accessories
+                                    <li class="nav__list-item" id="womenaccessories" style="color: black;">Women
+                                        Accessories
                                     </li>
                                 </a>
                             </td>
@@ -199,19 +201,19 @@
         <section class="Hoodie_gallery" style="position: absolute; display: block;">
             <h1>Hoodie Gallery</h1>
             <div class="slider" id="slider"
-                style="--img-prev:url(images/supreme-fall-winter-2014-collection-lookbook-3-952x536.jpg);">
+                style="--img-prev:url(assets/images/supreme-fall-winter-2014-collection-lookbook-3-952x536.jpg);">
                 <div class="slider__content" id="slider-content">
                     <div class="slider__images">
                         <div class="slider__images-item slider__images-item--active" data-id="1"><img
-                                src="images/Slideshow/Oni_1.jpg" /></div>
-                        <div class="slider__images-item" data-id="2"><img
-                                src="images/Slideshow/Plain_2.jpg" /></div>
-                        <div class="slider__images-item" data-id="3"><img
-                                src="images/Slideshow/Oni_2.jpg" /></div>
-                        <div class="slider__images-item" data-id="4"><img
-                                src="images/Slideshow/Cherry_2.jpg" /></div>
-                        <div class="slider__images-item" data-id="5"><img
-                                src="images/Slideshow/Oni_3.jpg" /></div>
+                                src="assets/images/Slideshow/Oni_1.jpg" /></div>
+                        <div class="slider__images-item" data-id="2"><img src="assets/images/Slideshow/Plain_2.jpg" />
+                        </div>
+                        <div class="slider__images-item" data-id="3"><img src="assets/images/Slideshow/Oni_2.jpg" />
+                        </div>
+                        <div class="slider__images-item" data-id="4"><img src="assets/images/Slideshow/Cherry_2.jpg" />
+                        </div>
+                        <div class="slider__images-item" data-id="5"><img src="assets/images/Slideshow/Oni_3.jpg" />
+                        </div>
                     </div>
                     <div class="slider__text">
                         <div class="slider__text-item slider__text-item--active" data-id="1">
@@ -272,11 +274,12 @@
             </div>
         </section>
 
-        <img class="scrolldown" src="images/down.gif">
+        <img class="scrolldown" src="assets/images/down.gif">
 
         <section class="Hoodie_product">
             <div class="Product_Hoodie" style="opacity: 0;pointer-events:none;">
-                <img class="Product_mockup" src="images/supreme-fall-winter-2014-collection-lookbook-2-1200x120022.png">
+                <img class="Product_mockup"
+                    src="assets/images/supreme-fall-winter-2014-collection-lookbook-2-1200x120022.png">
                 <div class="Product_frame">
                     <div class="Product_card">
                         <h2 class="Product_Name" style="left: 20px; z-index: 10; top: 20px;">
@@ -285,7 +288,7 @@
                         <h2 class="Product_Price">
                             <a href="">$50</a>
                         </h2>
-                        <img class="Product_Image" src="images/items/Plain_front (Hoodie).png" />
+                        <img class="Product_Image" src="assets/images/items/Plain_front (Hoodie).png" />
                         <script type="text/javascript">
                             $(".Product_frame").hover(function () {
                                 $(".Product_Name a").css("background-position", "-99.99% 0");
@@ -326,7 +329,7 @@
                     <div class="col-md-3 col-sm-4">
                         <div class="mb-3 img-logo">
                             <a href="Home.html">
-                                <img src="assets/home_assets/images/logo.jpg" alt="HYUN logo" title="">
+                                <img src="assets/home_assets/assets/images/logo.jpg" alt="HYUN logo" title="">
                             </a>
                         </div>
                         <p class="mb-3 mbr-fonts-style foot-title display-7">
@@ -338,11 +341,13 @@
                         </p>
                     </div>
                     <div class="col-md-4 col-sm-8">
-                        <a href="mailto:speedejer86@outlook.com" style="text-decoration: none; color: white;"><p class="mb-4 foot-title mbr-fonts-style display-5">Need help?</p>
-                        <p class="mbr-text mbr-fonts-style foot-text display-7"><span style="font-size: 1rem;">Can't
-                                get the right size?</span><br><br><span style="font-size: 1rem;"> Concerned about
-                                the quality of our products?</span><br><br><span style="font-size: 1rem;">Questions
-                                about the shippings and conditions?</span><br><br>Need human assistance?</p></a>
+                        <a href="mailto:speedejer86@outlook.com" style="text-decoration: none; color: white;">
+                            <p class="mb-4 foot-title mbr-fonts-style display-5">Need help?</p>
+                            <p class="mbr-text mbr-fonts-style foot-text display-7"><span style="font-size: 1rem;">Can't
+                                    get the right size?</span><br><br><span style="font-size: 1rem;"> Concerned about
+                                    the quality of our products?</span><br><br><span style="font-size: 1rem;">Questions
+                                    about the shippings and conditions?</span><br><br>Need human assistance?</p>
+                        </a>
                     </div>
                     <div class="col-md-4 offset-md-1 col-sm-12">
                         <p class="mb-4 foot-title mbr-fonts-style display-7">
@@ -354,19 +359,16 @@
                             <div data-form-alert="" hidden="" class="align-center">Thanks for trusting us, we won't
                                 spam you, promise.</div>
 
-                            <form class="form-inline" action="Home.html" method="post"
-                                data-form-title="Subscribe Form">
+                            <form class="form-inline" action="Home.html" method="post" data-form-title="Subscribe Form">
                                 <input type="hidden"
                                     value="SmslNqA3hTChLPJy+ldzeRUkKOFcWUvziAinzvBrIwXqsBRZO+t9cYs7K4c5628DJeOv86ZAHkeXbWtKXGJHTiPKERacXG2/ZydiqR0EGdXweY/yBUyfHz9dI50+oWmf"
                                     data-form-email="true">
                                 <div class="form-group">
-                                    <input type="email" class="form-control input-sm input-inverse my-2"
-                                        name="email" required="" data-form-field="Email" placeholder="Email"
-                                        id="email-footer4-t">
+                                    <input type="email" class="form-control input-sm input-inverse my-2" name="email"
+                                        required="" data-form-field="Email" placeholder="Email" id="email-footer4-t">
                                 </div>
-                                <div class="input-group-btn m-2"><button href=""
-                                        class="btn btn-white-outline display-4" type="submit"
-                                        role="button">Subscribe</button></div>
+                                <div class="input-group-btn m-2"><button href="" class="btn btn-white-outline display-4"
+                                        type="submit" role="button">Subscribe</button></div>
                             </form>
                         </div>
                         <p class="mb-4 mbr-fonts-style foot-title display-7"><br>Follow us here!</p>
@@ -486,13 +488,13 @@
                     this.images = el.getElementsByTagName('img');
 
                     document.getElementById('slider-dots').
-                    addEventListener('click', this.onDotClick.bind(this));
+                        addEventListener('click', this.onDotClick.bind(this));
 
                     document.getElementById('left').
-                    addEventListener('click', this.prev.bind(this));
+                        addEventListener('click', this.prev.bind(this));
 
                     document.getElementById('right').
-                    addEventListener('click', this.next.bind(this));
+                        addEventListener('click', this.next.bind(this));
 
                     window.addEventListener('resize', this.onResize.bind(this));
 
@@ -509,7 +511,7 @@
 
                         var isMobile = this.isMobile = matchMedia('only screen and (max-width: ' +
                             mobileBreakpoint + ')').
-                        matches;
+                            matches;
 
                         this.halfWidth = innerWidth / 2;
                         this.halfHeight = innerHeight / 2;
@@ -966,12 +968,12 @@
             }
         }
         preload(
-            "images/supreme-fall-winter-2014-collection-lookbook-2-1200x1200.png",
-            "images/supreme-fall-winter-2014-collection-lookbook-2-1200x120022.png",
-            "images/supreme-fall-winter-2014-collection-lookbook-2-1200x12002222.png",
-            "images/items/Plain_front (Hoodie).png",
-            "images/items/Oni_back (Hoodie).png",
-            "images/items/Cherry_back (Hoodie).png"
+            "assets/images/supreme-fall-winter-2014-collection-lookbook-2-1200x1200.png",
+            "assets/images/supreme-fall-winter-2014-collection-lookbook-2-1200x120022.png",
+            "assets/images/supreme-fall-winter-2014-collection-lookbook-2-1200x12002222.png",
+            "assets/images/items/Plain_front (Hoodie).png",
+            "assets/images/items/Oni_back (Hoodie).png",
+            "assets/images/items/Cherry_back (Hoodie).png"
         )
     </script>
 
